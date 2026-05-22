@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Kaggle data and generated outputs
+data/*.csv
+*.csv
+!demo_final_parameters.csv
+
+# Office temporary files
+~$*
