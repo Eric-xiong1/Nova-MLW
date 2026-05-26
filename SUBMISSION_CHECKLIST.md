@@ -18,8 +18,3 @@ Based on `AI3023 Machine Learning Workshop Course Project(1).pdf`.
 - [ ] Screenshot(s) of Kaggle submission log(s).
 - [ ] Presentation slides as PPT or PDF.
 
-## Notes
-
-- No presentation slides were found in the provided folder.
-- No Kaggle submission log screenshots/images were found in the provided folder.
-- Word temporary lock files such as `~$*.docx` should not be submitted.
