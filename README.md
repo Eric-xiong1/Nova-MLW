@@ -11,9 +11,10 @@ The final demo pipeline trains an ensemble of XGBoost, LightGBM, and CatBoost mo
 ## Repository Structure
 
 - `src/spaceship_demo.py` - runnable final demo script.
-- `src/spaceship-titanic-project-model_compare.ipynb` - experiment notebook (EDA, baselines, model comparison).
+- `src/spaceship-titanic-project-model_compare.ipynb` - experiment notebook (EDA, baselines, model comparison). EDA charts and results are embedded as cell outputs.
 - `reports/Nova@MLW_final_report.docx` - final project report.
-- `data/` - place Kaggle input files here locally. The raw dataset is not committed.
+- `demo_charts/` - placeholder for any standalone chart exports (charts are primarily in the notebook).
+- `data/` - placeholder only; raw data files are not committed.
 - `SUBMISSION_CHECKLIST.md` - course requirement checklist.
 
 ## Environment
@@ -30,10 +31,10 @@ Download the Spaceship Titanic data from Kaggle:
 
 https://www.kaggle.com/competitions/spaceship-titanic/data
 
-Place these files in `src/` (same folder as the demo script):
+Place these files in **`src/`** (same folder as the demo script):
 
-- `train.csv`
-- `test.csv`
+- `src/train.csv`
+- `src/test.csv`
 
 ## Run
 

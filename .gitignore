@@ -15,3 +15,8 @@ data/*.csv
 
 # Office temporary files
 ~$*
+
+# Standalone chart export scripts and generated images (charts are in the notebook)
+generate_demo_charts.py
+demo_charts/*.png
+demo_charts/*.jpg
