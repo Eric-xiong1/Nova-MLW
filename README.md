@@ -10,11 +10,11 @@ The final demo pipeline trains an ensemble of XGBoost, LightGBM, and CatBoost mo
 
 ## Repository Structure
 
-- `src/spaceship_demo_code.py` - runnable final demo script.
-- `notebooks/spaceship-titanic-project.ipynb` - experiment notebook.
-- `reports/Spaceship_Titanic_Optimization_Report_REVISED_with_Static_Tuning_Detail.docx` - project report draft/material.
+- `src/spaceship_demo.py` - runnable final demo script.
+- `src/spaceship-titanic-project-model_compare.ipynb` - experiment notebook (EDA, baselines, model comparison).
+- `reports/Nova@MLW_final_report.docx` - final project report.
 - `data/` - place Kaggle input files here locally. The raw dataset is not committed.
-- `SUBMISSION_CHECKLIST.md` - course requirement checklist and missing-material notes.
+- `SUBMISSION_CHECKLIST.md` - course requirement checklist.
 
 ## Environment
 
@@ -30,21 +30,18 @@ Download the Spaceship Titanic data from Kaggle:
 
 https://www.kaggle.com/competitions/spaceship-titanic/data
 
-Place these files in `data/`:
+Place these files in `src/` (same folder as the demo script):
 
 - `train.csv`
 - `test.csv`
-- `sample_submission.csv`
 
 ## Run
 
-From the repository root:
-
 ```bash
-python src/spaceship_demo_code.py --train data/train.csv --test data/test.csv --submission data/sample_submission.csv
+python src/spaceship_demo.py
 ```
 
-Expected outputs:
+Expected outputs (written to `src/`):
 
-- `demo_final_submission_static_81201.csv`
-- `demo_final_parameters.csv`
+- `demo_final_submission.csv` - Kaggle submission file
+- `demo_final_parameters.csv` - ensemble parameters log
